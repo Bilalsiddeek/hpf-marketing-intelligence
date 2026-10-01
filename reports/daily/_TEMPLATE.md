@@ -84,7 +84,7 @@ The 3 most important findings today.
 ### Things To Test
 3 experiments.
 
-| # | Hypothesis | Test design | Success metric | Effort (S/M/L) | Owner (Mo / HPF / client) | From |
+| # | Hypothesis | Test design | Success metric | Effort (S/M/L) | Owner (Bilal / HPF / client) | From |
 |---|---|---|---|---|---|---|
 | 1 | If we …, then … because … | | | | | F-ID |
 | 2 | | | | | | |

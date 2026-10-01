@@ -1,6 +1,6 @@
 ---
 name: marketing-intelligence
-description: Runs HPF Media's daily marketing-intelligence cycle. Researches brand strategy, creative, consumer psychology, distribution, social platforms, e-commerce, agencies/competitors and emerging martech from the last 7 days; filters for strategic signals relevant to $3M–$10M founder-led and ethical consumer brands; analyses each through HPF's 3D System and 8 lenses; compares against memory; writes reports/daily/YYYY-MM-DD.md; and updates memory/insights.md and memory/trends.md. Use when Mo asks for "today's intel", "the daily report", "run marketing intelligence", or "what's moving in marketing".
+description: Runs HPF Media's daily marketing-intelligence cycle. Researches brand strategy, creative, consumer psychology, distribution, social platforms, e-commerce, agencies/competitors and emerging martech from the last 7 days; filters for strategic signals relevant to $3M–$10M founder-led and ethical consumer brands; analyses each through HPF's 3D System and 8 lenses; compares against memory; writes reports/daily/YYYY-MM-DD.md; and updates memory/insights.md and memory/trends.md. Use when Bilal asks for "today's intel", "the daily report", "run marketing intelligence", or "what's moving in marketing".
 ---
 
 # HPF Marketing Intelligence: Daily Run
@@ -17,7 +17,7 @@ Set `TODAY` = the current date (YYYY-MM-DD) and `WINDOW` = the 7 days ending tod
 2. Read every file in `sources/`.
 3. Read `memory/insights.md` and `memory/trends.md` in full.
 4. Read the 3 most recent reports in `reports/daily/` (ignore `_TEMPLATE.md`) and note every URL already covered. Don't repeat an item unless something new has happened.
-5. Run one `WebSearch` to confirm search works. If it fails, stop and tell Mo. **Never produce a report from memory or training data.**
+5. Run one `WebSearch` to confirm search works. If it fails, stop and tell Bilal. **Never produce a report from memory or training data.**
 
 ---
 
@@ -43,7 +43,7 @@ For each candidate, log: title · URL · publisher · publish date · category �
 **Tool choice**
 - `WebFetch`: any public article, newsroom or IR page.
 - Built-in browser (`mcp__Claude_Browser__navigate` then `get_page_text`): JS-rendered pages such as Meta Ad Library, TikTok Creative Center and Google Trends. Read only. Decline non-essential cookies. Never sign in.
-- **Never** use Claude in Chrome unless Mo explicitly asks for it in the current session.
+- **Never** use Claude in Chrome unless Bilal explicitly asks for it in the current session.
 
 ---
 
@@ -98,7 +98,7 @@ Work through this full scaffold for each finding. The report shows a condensed v
   - HPF Media content angle, with its pillar (3D System / Marketing Education / Radical Transparency) and best-fit framework from `hpf-scripting-frameworks` (01–07) if one is obvious
   - Potential case study
   - Potential framework
-  - Potential client conversation, as a diagnostic question Mo could open with
+  - Potential client conversation, as a diagnostic question Bilal could open with
 
 **Guardrails:** never invent motives; write "Likely rationale (inference):" instead. Never invent numbers. If the mechanism is a hypothesis, say so.
 
@@ -146,7 +146,7 @@ Append one row to the **Run Log** at the bottom of `memory/trends.md`: date · f
 
 ---
 
-## Phase 7: Report back to Mo
+## Phase 7: Report back to Bilal
 
 Reply in chat with only:
 1. The 3 Executive Brief headlines

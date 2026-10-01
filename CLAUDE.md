@@ -2,14 +2,14 @@
 
 This folder is HPF Media's marketing-intelligence system. Each day Claude researches the global marketing landscape, keeps only the strategic signals, analyses them through HPF's frameworks, and writes a dated report. Memory accumulates across days so patterns can be spotted rather than re-discovered.
 
-**This is not a marketing-news digest.** A finding earns a place only if it changes what Mo, HPF Media, or an HPF client should think or do.
+**This is not a marketing-news digest.** A finding earns a place only if it changes what Bilal, HPF Media, or an HPF client should think or do.
 
 ---
 
 ## Who this serves
 
-Mo / HPF Media. Intelligence feeds five uses, in this order:
-1. Mo's personal brand (Instagram-first short-form content)
+Bilal / HPF Media. Intelligence feeds five uses, in this order:
+1. Bilal's personal brand (Instagram-first short-form content)
 2. HPF Media's content (pillars: **3D System**, **Marketing Education**, **Radical Transparency**)
 3. HPF client acquisition (conversations, Clarity Check / Clarity Brief, offers)
 4. HPF client strategy (what we recommend to current clients)
@@ -60,11 +60,13 @@ The watchlists live in `sources/`. Edit them to change coverage.
 | `WebSearch` | ✅ Works. Returns titles and URLs; US-centric index | Discovery: "what happened this week in X" |
 | `WebFetch` | ✅ Works on public pages | Reading primary sources: newsrooms, blogs, press releases, IR pages, studies |
 | Built-in browser (`mcp__Claude_Browser__*`) | ✅ Available | JS-heavy pages WebFetch can't render: Meta Ad Library, TikTok Creative Center, Google Trends |
-| Claude in Chrome (`mcp__claude-in-chrome__*`) | ⚠️ Available, uses Mo's real logged-in Chrome | Only when Mo asks, e.g. for paywalled publications he subscribes to |
+| Claude in Chrome (`mcp__claude-in-chrome__*`) | ⚠️ Available, uses Bilal's real logged-in Chrome | Only when Bilal asks, e.g. for paywalled publications Bilal subscribes to |
 | Notion / Google Drive / Gmail / Slack connectors | ✅ Connected | Optional *delivery* of reports (Gmail = drafts only, never send) |
 | Scheduled tasks (`mcp__scheduled-tasks__*`) | ✅ Available | Automating the daily run (runs only while the Claude app is open) |
 | Ahrefs, Similarweb, Supermetrics, Klaviyo, Amplitude | ❌ Not authorised | Would add traffic, SEO, and performance data once connected |
 | Paid databases (WARC, eMarketer, Statista Pro) | ❌ No access | Cite only free or abstract-level content; never imply full access |
+
+**Cloud (scheduled) runs:** only `WebSearch`, `WebFetch`, the file tools and git are available. There's no browser, no Chrome and no connectors, so skip JS-only sources (Meta Ad Library, TikTok Creative Center, Google Trends) and list them under "Not accessible this run". Never try to sign in anywhere.
 
 **Honesty rules for capabilities:**
 - Never claim to have read a page you didn't successfully fetch. If a fetch fails, or a page is paywalled or JS-only, say so in the report.

@@ -68,4 +68,4 @@ These are the agencies a prospect might choose instead of HPF. The agent tracks 
 | Retail Brew | https://www.retailbrew.com | Free |
 | Business of Fashion | https://www.businessoffashion.com | Paywalled |
 
-**Paywalls:** the agent can read free headlines and openings only. If Mo has subscriptions, he can grant Claude-in-Chrome access per session for full articles.
+**Paywalls:** the agent can read free headlines and openings only. For publications Bilal subscribes to, Bilal can grant Claude-in-Chrome access per session for full articles.

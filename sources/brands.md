@@ -75,5 +75,5 @@ Use these for **hard numbers** on CAC, retention, channel mix and wholesale vs. 
 ## Add your own
 
 - [ ] **HPF clients (current):** add brand names here so their categories get extra attention. *(Keep this file private if you add clients.)*
-- [ ] **Dream clients / prospects:** brands Mo wants to win.
-- [ ] **Brands in Mo's niche** that the audience already knows.
+- [ ] **Dream clients / prospects:** brands Bilal wants to win.
+- [ ] **Brands in Bilal's niche** that the audience already knows.
