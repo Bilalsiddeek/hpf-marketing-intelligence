@@ -75,3 +75,4 @@ Copy for each trend promoted from Candidates:
 | Date | Findings kept | Sources consulted | New candidates | Trend changes | Failures / paywalls |
 |---|---|---|---|---|---|
 | 2026-10-01 | — | — | — | System built; no research run yet | — |
+| 2026-10-01 (cron run) | 0 (no report written) | WebSearch only | — | — | WebSearch works, but WebFetch returned EGRESS_BLOCKED for every domain tried (about.fb.com, newsroom.tiktok.com, shopify.com/news, blog.google, modernretail.co, about.instagram.com, blog.youtube, techcrunch.com). No primary source could be read, so nothing could be verified; no report written rather than publish search-snippet-only findings. Needs network allowlist change for the cloud environment. |
